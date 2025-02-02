@@ -1,10 +1,15 @@
 
 
-const array1 = ["You", "I am", "I honor", "I treat", "I cheer"]
+const array1 = ["You are", "I am", "I honor", "I treat myself", "I cheer for others"]
 
-const array2 = ["capable", "be amazing", "with the"]
+const array2 = ["capable of greatness", "meant to be amazing", "worthy of love and respect", "a beacon of positivity"]
 
-const array3 = ["I show others", "greatest supporter"]
+const array3 = [
+    "every single day.", 
+    "in everything I do.", 
+    "because I believe in myself.", 
+    "with kindness and confidence."
+];
 
 function Assembler(array1, array2, array3) {
 const first = Math.floor(Math.random() * array1.length)
